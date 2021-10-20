@@ -128,7 +128,6 @@ function registerRouter(app) {
 
 // 注册推荐列表接口路由
 function registerRecommend(app) {
-  console.log('wo daozhel ')
   app.get('/api/getRecommend', (req, res) => {
     // 第三方服务接口 url
     const url = 'https://u.y.qq.com/cgi-bin/musics.fcg'
